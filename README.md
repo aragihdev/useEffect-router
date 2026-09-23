@@ -1,20 +1,38 @@
-<<<<<<< HEAD
-# React + Vite
+# Projeto React: Hooks e Rotas
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação desenvolvida para praticar os conceitos fundamentais do React e a navegação entre páginas sem recarregar o navegador.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+* **LikeButton**: Gestão de estado simples com `useState` para contagem de curtidas.
+* **Contador e Título**: Sincronização do valor de um contador com o título da página (`document.title`) via `useEffect`.
+* **Tecla (Cleanup)**: Monitorização de eventos de teclado com remoção do ouvinte ao desmontar o componente.
+* **ListaAlunos**: Adição de itens a uma lista, validação de campos e renderização condicional.
+* **Navegação (Rotas)**: Roteamento entre as páginas Home, Alunos e Sobre com `react-router-dom`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# useEffect-router
->>>>>>> 936675fef6c1a6f6e56fa9de0efd069d7f47fa6e
+* React
+* JavaScript (ES6+)
+* React Router Dom
+* CSS3
+
+---
+
+## Como Executar
+
+1. Clonar o repositório:
+   git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+
+2. Entrar na pasta do projeto:
+   cd SEU-REPOSITORIO
+
+3. Instalar as dependências:
+   npm install
+
+4. Iniciar o projeto:
+   npm run dev
