@@ -3,6 +3,7 @@ import Menu from "./components/Menu";
 import Home from "./pages/Home";
 import Alunos from "./pages/Alunos";
 import Sobre from "./pages/Sobre";
+import UserList from "./components/UserList";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/alunos" element={<Alunos />} />
         <Route path="/sobre" element={<Sobre />} />
       </Routes>
-    </div>
+    </div>  
   );
 }
 

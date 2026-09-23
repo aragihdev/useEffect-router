@@ -1,5 +1,6 @@
 import LikeButton from "../components/LikeButton";
 import Tecla from "../components/Tecla";
+import UserList from "../components/UserList";
 import { useState, useEffect } from "react";
 
 function Home() {
@@ -25,6 +26,8 @@ function Home() {
       <h2>Exercício Tecla (Cleanup)</h2>
       <button onClick={() => setShow(!show)}>Mostrar / Esconder Tecla</button>
       {show && <Tecla />}
+      <h1>Consumo de API</h1>
+      <UserList/>
     </div>
   );
 }
