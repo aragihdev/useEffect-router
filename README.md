@@ -25,14 +25,8 @@ Aplicação desenvolvida para praticar os conceitos fundamentais do React e a na
 
 ## Como Executar
 
-1. Clonar o repositório:
-   git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
-
-2. Entrar na pasta do projeto:
-   cd SEU-REPOSITORIO
-
-3. Instalar as dependências:
+1. Instalar as dependências:
    npm install
 
-4. Iniciar o projeto:
+2. Iniciar o projeto:
    npm run dev
